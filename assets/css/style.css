@@ -11,3 +11,29 @@
 
 body { font-family: "Sixtyfour Convergence", system-ui, sans-serif; }
 
+
+.container {
+    width: min(1100px, 100% - 32px);
+    margin: 0 auto;
+}
+
+.site-header {
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 12px;
+}

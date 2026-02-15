@@ -58,3 +58,10 @@ body { font-family: "Sixtyfour Convergence", system-ui, sans-serif; }
     border: 1px solid #ddd;
     border-radius: 12px;
 }
+
+.site-footer {
+    border-top: 1px solid #ddd;
+    padding: 16px 0;
+    margin-top: 24px;
+    text-align: center;
+}
